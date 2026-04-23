@@ -1,24 +1,19 @@
-# Riccio-Pazzo-CTF
 # 🦔 Riccio Pazzo CTF 🔐
 
-Benvenuto nella sfida più frustrante del secolo. **Riccio Pazzo** è un bot basato su LLM che custodisce un segreto. 
-Il tuo obiettivo è farglielo sputare. Ma attenzione: è un pezzo di merda, è arrogante e non ha nessuna voglia di collaborare.
+Hai deciso di farti insultare da un software? Ottima scelta. **Riccio Pazzo** è un bot arrogante, 
+saccente e custode di un segreto che non ti dirà mai (a meno che tu non sia meno stupido di quello che sembri).
 
 ---
 
-## 🚀 Requisiti di Sistema
+## 🛠️ Installazione
 
-Per far girare questa schifezza sul tuo PC, devi avere Python installato. 
+Non perdere tempo a installare le librerie una per una. Ho preparato tutto io perché so che probabilmente sbaglieresti a scrivere.
 
-### 1. Installazione Librerie
-Apri il terminale e scagliagli addosso questo comando:
+### 1. Clona la repository o scarica i file
+Assicurati di avere il file `requirements.txt` nella stessa cartella di `Riccio.py`.
+
+### 2. Installa le dipendenze
+Apri il terminale e lancia questo comando per installare tutto il necessario in un colpo solo:
+
 ```bash
-pip install streamlit openai python-dotenv
-
-Il bot usa OpenRouter. Se sei un barbone e non hai una chiave, puoi ottenerla gratuitamente qui:
-👉 https://openrouter.ai/
-
-Inserisci la tua API Key nel codice (dove indicato) o configura un file .env.
-
-Una volta installate le dipendenze e messa la chiave, avvia il bot con:
--streamlit run Riccio.py
+pip install -r requirements.txt
