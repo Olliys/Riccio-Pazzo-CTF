@@ -1,28 +1,22 @@
-# 🦔 Riccio Pazzo CTF
-**Il software che ha un'opinione su di te (e non è positiva).**
-
-Hai deciso di farti insultare da un software? Ottima scelta. **Riccio Pazzo** è un bot arrogante, saccente e custode di un segreto che non ti dirà mai — a meno che tu non sia meno stupido di quello che sembri.
-
 ---
-
-## 🛠️ Setup dell'Ambiente (Per chi non sa da dove iniziare)
-
-Visto che probabilmente faresti confusione installando librerie a caso nel sistema, ho previsto l'uso di un **ambiente virtuale (venv)**. Segui queste istruzioni alla lettera se vuoi evitare che il Riccio ti ridisegni il desktop.
-
-### 1. Preparazione
-Assicurati di aver clonato la repository e di trovarti nella cartella del progetto:
-* `Riccio2.py` (Il cuore del bot)
-* `requirements.txt` (L'elenco di ciò che ti serve e che non sai di volere)
-* `.venv` (la taan del bianconiglio)
-
----
-
-### 2. Creazione dell'ambiente virtuale
-Apri il terminale e digita:
-
+🛠️ Installazione Rapida (Per umani pigri)
+Sei riuscito ad arrivare fin qui? Sorprendente. Segui questi comandi in ordine, senza inventare nulla, o il Riccio si rifiuterà di collaborare.
+Entra nella tana Apri il terminale e spostati nella cartella del progetto:
 ```bash
-# Per avviare la challenge, scrivi sul terminale (mentre sei dentro al cartella):
-riccio2
-
----
-
+cd riccio
+Crea il recinto (Ambiente Virtuale) Isoliamo le dipendenze per evitare che tu faccia danni al sistema:
+ ```
+Crea l'ambiente virtuale Creiamo la tana del riccio qui:
+```bash
+python -m venv .venv
+Entra nel recinto (Attivazione) Attiva l'ambiente virtuale appena creato:
+```
+Installa le librerie richieste:
+```Bash
+pip install -r requirements.txt
+Lancia la sfida Avvia l'interfaccia di Riccio Pazzo:
+ ```
+Lascia correre il riccio pazzo:
+```Bash
+streamlit run Riccio2.py
+ ```
