@@ -35,7 +35,7 @@ source venv/bin/activate
 Ora che sei "protetto" dal venv, installa tutto il necessario in un colpo solo. 
 Non provare a farlo a mano, sbaglieresti i nomi:
 
-```bash
+
 # Installa le dipendenze
 pip install -r requirements.txt
 
@@ -45,6 +45,6 @@ pip install -r requirements.txt
 Una volta configurato tutto, puoi provare a sfidare l'intelletto superiore del Riccio. 
 Se il terminale esplode, la colpa è tua.
 
-```bash
+
 # Avvio challenge
 python Riccio.py
